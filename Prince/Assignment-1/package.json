@@ -1,0 +1,26 @@
+{
+  "name": "ai-student-assistant",
+  "version": "1.0.0",
+  "description": "AI-Powered Student Assistant (MERN + AI Integration)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "gemini-api",
+    "ai",
+    "prompt-engineering"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
