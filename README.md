@@ -18,7 +18,6 @@
 │
 ├── Assignment-2/
 │   └── README.md                # Ready for Assignment 2
-│
 └── 
 ```
 
